@@ -1,4 +1,4 @@
-// src/paginas/checkout.jsx
+
 import { usarAuth } from '../contexto/contextoAuth.jsx'
 import { Caja } from '../styled/ui.jsx'
 

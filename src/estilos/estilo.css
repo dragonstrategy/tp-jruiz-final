@@ -171,7 +171,7 @@ body {
   font: inherit;
 }
 
-/* ===== Menú hamburguesa responsivo ===== */
+/*Menú hamburguesa*/
 
 /* por defecto, el botón no se ve en desktop */
 .nav-toggle {
@@ -220,7 +220,7 @@ body {
 }
 
 
-/* ===== Hero institucional ===== */
+/*Hero institucional*/
 
 .hero-contenedor {
   position: relative;

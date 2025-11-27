@@ -1,4 +1,4 @@
-// src/paginas/adminProductos.jsx
+
 import { Link } from 'react-router-dom'
 import { usarProductos } from '../contexto/contextoProductos.jsx'
 import { Caja, PanelError } from '../styled/ui.jsx'

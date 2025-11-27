@@ -1,9 +1,9 @@
-// src/contexto/contextoAuth.jsx
+
 import { createContext, useContext, useState, useEffect } from 'react'
 
 const AuthContexto = createContext(null)
 
-// 🔐 Definimos el mail del admin
+// mail del admin
 const ADMIN_EMAIL = 'admin@tienda.com'
 
 export function ProveedorAuth({ children }) {

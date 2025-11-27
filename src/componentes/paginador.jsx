@@ -1,4 +1,4 @@
-// src/componentes/paginador.jsx
+
 export default function Paginador({ paginaActual, totalPaginas, onCambiarPagina }) {
   if (totalPaginas <= 1) return null
 

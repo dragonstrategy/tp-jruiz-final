@@ -1,4 +1,4 @@
-// src/layouts/layoutTienda.jsx
+
 import { useState } from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import { usarAuth } from '../contexto/contextoAuth.jsx'

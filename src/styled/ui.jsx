@@ -1,4 +1,4 @@
-// src/styled/ui.jsx
+
 import styled from 'styled-components'
 
 export const Caja = styled.section`

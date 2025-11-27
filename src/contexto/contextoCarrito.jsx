@@ -1,4 +1,4 @@
-// src/contexto/contextoCarrito.jsx
+
 import { createContext, useContext, useEffect, useState } from 'react'
 
 const CarritoContexto = createContext(null)
@@ -6,7 +6,7 @@ const CarritoContexto = createContext(null)
 export function ProveedorCarrito({ children }) {
   const [carrito, setCarrito] = useState([])
 
-  // Restaurar carrito desde localStorage (pequeña mejora)
+  // Restaurar carrito desde localStorage
   useEffect(() => {
     const guardado = localStorage.getItem('carrito')
     if (guardado) {

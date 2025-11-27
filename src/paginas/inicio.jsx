@@ -12,7 +12,7 @@ export default function Inicio() {
         />
       </Helmet>
 
-      {/* ==== HERO INSTITUCIONAL ==== */}
+ 
       <div className="hero-contenedor">
         <img
           src="https://images.unsplash.com/photo-1542291026-7eec264c27ff"
@@ -26,7 +26,7 @@ export default function Inicio() {
         </div>
       </div>
 
-      {/* ==== CONTENIDO ORIGINAL ==== */}
+
       <h2 style={{ marginTop: "1.5rem" }}>Bienvenido</h2>
       <p>Explorá nuestros productos y armá tu carrito.</p>
     </Caja>

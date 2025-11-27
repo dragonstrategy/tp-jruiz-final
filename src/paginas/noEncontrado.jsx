@@ -1,4 +1,4 @@
-// src/paginas/noEncontrado.jsx
+
 import { Link } from 'react-router-dom'
 import { Caja } from '../styled/ui.jsx'
 

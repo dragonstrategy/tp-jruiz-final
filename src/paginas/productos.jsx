@@ -1,4 +1,4 @@
-// src/paginas/productos.jsx
+
 import { useState, useEffect } from 'react'
 import { Helmet } from "react-helmet"
 import TarjetaCarga from '../componentes/tarjetaCarga.jsx'
@@ -34,7 +34,7 @@ export default function Productos() {
   const totalPaginas = Math.ceil(productosFiltrados.length / itemsPorPagina) || 1
 
   useEffect(() => {
-    // Cuando cambia la búsqueda o la cantidad de productos, volvemos a página 1
+    // Cuando cambia la búsqueda o la cantidad de productos, vuelve a página 1
     setPaginaActual(1)
   }, [busqueda, productos.length])
 

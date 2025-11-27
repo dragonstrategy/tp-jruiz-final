@@ -6,7 +6,7 @@ export default function RutaProtegida({ children }) {
   const ubicacion = useLocation()
 
   if (!usuario) {
-    // Redirige a /acceso y recuerda a dónde quería ir
+    
     return <Navigate to="/acceso" replace state={{ desde: ubicacion.pathname }} />
   }
   return children
