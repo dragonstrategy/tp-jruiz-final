@@ -4,7 +4,7 @@
 const URL_BASE = 'https://6925daf982b59600d7257738.mockapi.io/jr/productos'
 
 // Imagen por defecto si no hay URL
-const PLACEHOLDER_IMAGE = 'https://via.placeholder.com/300x200?text=Producto'
+const PLACEHOLDER_IMAGE = 'https://prueba.com'
 
 export async function obtenerProductos() {
   try {
