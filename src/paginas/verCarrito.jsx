@@ -30,7 +30,6 @@ export default function VerCarrito() {
         onEliminar={eliminarItem}
       />
 
-      {/* 👉 Total al final del carrito */}
       {carrito.length > 0 && (
         <div className="total-carrito">
           <span>Total de la compra:</span>
