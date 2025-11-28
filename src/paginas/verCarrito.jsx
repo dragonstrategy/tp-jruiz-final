@@ -6,7 +6,6 @@ import { Caja } from '../styled/ui.jsx'
 export default function VerCarrito() {
   const { carrito, sumarCantidad, restarCantidad, eliminarItem } = usarCarrito()
 
-  // 👉 cálculo del total
   const total = carrito.reduce(
     (acum, item) => acum + item.precio * item.cantidad,
     0
